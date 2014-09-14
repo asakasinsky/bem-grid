@@ -6,7 +6,7 @@
         { elem : 'meta', attrs : { name: 'viewport', content: 'width=device-width, initial-scale=1' } }
     ],
     styles : [
-        { elem : 'css', url : '_index.css' }
+        { elem : 'css', url : '/bem-grid/desktop.pages/index/_index.css' }
     ],
     content : [
         {
@@ -593,5 +593,5 @@
             ]
         }
     ],
-    scripts : [{ elem : 'js', url : '_index.js' }]
+    scripts : [{ elem : 'js', url : '/bem-grid/desktop.pages/index/_index.js' }]
 })

@@ -3767,9 +3767,6 @@ provide(BEMDOM.decl(this.name, {
                 var detect = document.createElement('detect');
                 detect.style.display = 'flex';
                 detect.style.display === 'flex' && this.setMod('no-flexbox', true);
-            },
-            '' : function () {
-
             }
         }
     }
