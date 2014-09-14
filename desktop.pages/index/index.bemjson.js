@@ -6,7 +6,7 @@
         { elem : 'meta', attrs : { name: 'viewport', content: 'width=device-width, initial-scale=1' } }
     ],
     styles : [
-        { elem : 'css', url : 'https://raw.githubusercontent.com/verybigman/bem-grid/gh-pages/desktop.pages/index/_index.css' }
+        { elem : 'css', url : 'http://rawgit.com/verybigman/bem-grid/gh-pages/desktop.pages/index/_index.css' }
     ],
     content : [
         {
@@ -593,5 +593,5 @@
             ]
         }
     ],
-    scripts : [{ elem : 'js', url : 'https://raw.githubusercontent.com/verybigman/bem-grid/gh-pages/desktop.pages/index/_index.js' }]
+    scripts : [{ elem : 'js', url : 'http://rawgit.com/verybigman/bem-grid/gh-pages/desktop.pages/index/_index.js' }]
 })
