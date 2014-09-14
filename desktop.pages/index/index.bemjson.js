@@ -593,5 +593,5 @@
             ]
         }
     ],
-    scripts : [{ elem : 'js', url : 'https://raw.githubusercontent.com/verybigman/bem-grid/gh-pages/desktop.pages/index/_index.css' }]
+    scripts : [{ elem : 'js', url : 'https://raw.githubusercontent.com/verybigman/bem-grid/gh-pages/desktop.pages/index/_index.js' }]
 })
