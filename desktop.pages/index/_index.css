@@ -1897,3 +1897,55 @@ h2.title {
   color: #fff;
 }
 /* ../../test.blocks/box/box.styl end */
+/* ../../common.blocks/mantle/_hidden/mantle_hidden.styl begin */
+@media only screen {
+  .mantle_hidden_s {
+    display: none !important;
+  }
+}
+@media only screen and (min-width : 40.063em) {
+  .mantle_hidden_m {
+    display: none !important;
+  }
+}
+@media only screen and (min-width : 64.063em) {
+  .mantle_hidden_l {
+    display: none !important;
+  }
+}
+/* ../../common.blocks/mantle/_hidden/mantle_hidden.styl end */
+/* ../../common.blocks/mantle/_visible/mantle_visible.styl begin */
+@media only screen {
+  .mantle_visible_s.mantle_view_inline {
+    display: inline !important;
+  }
+  .mantle_visible_s.mantle_view_inline-block {
+    display: inline-block !important;
+  }
+  .mantle_visible_s.mantle_view_block {
+    display: block !important;
+  }
+}
+@media only screen and (min-width : 40.063em) {
+  .mantle_visible_m.mantle_view_inline {
+    display: inline !important;
+  }
+  .mantle_visible_m.mantle_view_inline-block {
+    display: inline-block !important;
+  }
+  .mantle_visible_m.mantle_view_block {
+    display: block !important;
+  }
+}
+@media only screen and (min-width : 64.063em) {
+  .mantle_visible_l.mantle_view_inline {
+    display: inline !important;
+  }
+  .mantle_visible_l.mantle_view_inline-block {
+    display: inline-block !important;
+  }
+  .mantle_visible_l.mantle_view_block {
+    display: block !important;
+  }
+}
+/* ../../common.blocks/mantle/_visible/mantle_visible.styl end */
