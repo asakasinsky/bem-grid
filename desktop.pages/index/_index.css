@@ -1,23 +1,44 @@
-/* ../../test.blocks/page/page.styl begin */
+/* ../../design/desktop.blocks/page/page.styl begin */
 .page {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 2rem;
   background: #eee;
 }
-/* ../../test.blocks/page/page.styl end */
-/* ../../test.blocks/title/title.styl begin */
+/* ../../design/desktop.blocks/page/page.styl end */
+/* ../../design/desktop.blocks/page/__header/page__header.styl begin */
+.page__header {
+  padding: 40px 0;
+}
+/* ../../design/desktop.blocks/page/__header/page__header.styl end */
+/* ../../design/desktop.blocks/page/__footer/page__footer.styl begin */
+.page__footer {
+  padding: 40px 0 30px;
+}
+/* ../../design/desktop.blocks/page/__footer/page__footer.styl end */
+/* ../../design/desktop.blocks/link/link.styl begin */
+.link {
+  color: #cecece;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+.link:hover {
+  color: #34495e;
+}
+/* ../../design/desktop.blocks/link/link.styl end */
+/* ../../design/desktop.blocks/title/title.styl begin */
 h1.title,
 h2.title {
   text-align: center;
   margin-bottom: 5px;
 }
-/* ../../test.blocks/title/title.styl end */
-/* ../../test.blocks/text/text.styl begin */
+/* ../../design/desktop.blocks/title/title.styl end */
+/* ../../design/desktop.blocks/text/text.styl begin */
 .text {
   text-align: center;
   margin: 0;
 }
-/* ../../test.blocks/text/text.styl end */
+/* ../../design/desktop.blocks/text/text.styl end */
 /* ../../common.blocks/variables/variables.styl begin */
 /* ../../common.blocks/variables/variables.styl end */
 /* ../../common.blocks/grid/grid.styl begin */
@@ -1882,7 +1903,7 @@ h2.title {
   }
 }
 /* ../../common.blocks/row/__col/row__col.styl end */
-/* ../../test.blocks/box/box.styl begin */
+/* ../../design/desktop.blocks/box/box.styl begin */
 .box {
   position: relative;
   -moz-box-sizing: border-box;
@@ -1896,7 +1917,13 @@ h2.title {
   text-align: center;
   color: #fff;
 }
-/* ../../test.blocks/box/box.styl end */
+/* ../../design/desktop.blocks/box/box.styl end */
+/* ../../design/desktop.blocks/example/example.styl begin */
+.example {
+  padding: 0 10px;
+  text-align: right;
+}
+/* ../../design/desktop.blocks/example/example.styl end */
 /* ../../common.blocks/mantle/_hidden/mantle_hidden.styl begin */
 @media only screen {
   .mantle_hidden_s {
