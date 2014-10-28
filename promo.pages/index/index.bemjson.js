@@ -11,7 +11,7 @@
             content : [
                 {
                     block : 'gh-ribbon',
-                    url : 'https://github.com/verybigman/bem-grid'
+                    url : '//github.com/verybigman/bem-grid'
                 },
                 {
                     block : 'heading', content : 'BEM Grid'
